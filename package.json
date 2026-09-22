@@ -1,0 +1,15 @@
+{
+  "name": "empacotador",
+  "version": "1.0.0",
+  "description": "Um empacotador de modulos ES escrito do zero: varredura, grafo de dependencias, ordem topologica e um pacote so. Zero dependencias.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "empacotar": "src/cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "exemplo": "node src/cli.js exemplos/loja/principal.js"
+  },
+  "keywords": ["empacotador", "bundler", "modulos", "esm", "grafo"],
+  "license": "MIT"
+}
