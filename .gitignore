@@ -8,3 +8,7 @@ dist/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Saída do próprio empacotador, quando rodado aqui dentro.
+pacote.js
+pacote-*.js
